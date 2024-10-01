@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/gomzevfh/public_html/
+    - export DEPLOYPATH=/home/gomzevfh/public_html/ict.gomze.co.za/
     - /bin/cp -R .vscode $DEPLOYPATH  # Copy .vscode directory
     - /bin/cp -R assets $DEPLOYPATH   # Copy assets directory
     - /bin/cp -R css $DEPLOYPATH      # Copy css directory
@@ -12,7 +12,7 @@ deployment:
     - /bin/cp about-us.html $DEPLOYPATH
     - /bin/cp blog-single.html $DEPLOYPATH
     - /bin/cp blog-standard.html $DEPLOYPATH
-    - /bin/cp 'case-single 2.html' $DEPLOYPATH  # Quotes used for files with spaces in the name
+    - /bin/cp 'case-single 2.html' $DEPLOYPATH  # Quotes for file with space
     - /bin/cp case-single.html $DEPLOYPATH
     - /bin/cp case-studies.html $DEPLOYPATH
     - /bin/cp consultation.html $DEPLOYPATH
