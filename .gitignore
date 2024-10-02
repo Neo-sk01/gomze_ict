@@ -1,6 +1,7 @@
 # Ignore the .git directory to prevent deployment issues
 .git/
 .github/
+node_modules/
 
 # Ignore IDE/editor configuration files
 .vscode/
