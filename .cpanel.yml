@@ -2,17 +2,17 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/gomzevfh/public_html/ict.gomze.co.za/
-    - /bin/cp -R .vscode $DEPLOYPATH  # Copy .vscode directory
-    - /bin/cp -R assets $DEPLOYPATH   # Copy assets directory
-    - /bin/cp -R css $DEPLOYPATH      # Copy css directory
-    - /bin/cp -R fonts $DEPLOYPATH    # Copy fonts directory
-    - /bin/cp -R img $DEPLOYPATH      # Copy img directory
-    - /bin/cp -R js $DEPLOYPATH       # Copy js directory
-    - /bin/cp 404.html $DEPLOYPATH    # Copy individual HTML files
+    - /bin/cp -R .vscode $DEPLOYPATH  
+    - /bin/cp -R assets $DEPLOYPATH   
+    - /bin/cp -R css $DEPLOYPATH      
+    - /bin/cp -R fonts $DEPLOYPATH    
+    - /bin/cp -R img $DEPLOYPATH      
+    - /bin/cp -R js $DEPLOYPATH       
+    - /bin/cp 404.html $DEPLOYPATH    
     - /bin/cp about-us.html $DEPLOYPATH
     - /bin/cp blog-single.html $DEPLOYPATH
     - /bin/cp blog-standard.html $DEPLOYPATH
-    - /bin/cp 'case-single 2.html' $DEPLOYPATH  # Quotes for file with space
+    - /bin/cp 'case-single 2.html' $DEPLOYPATH 
     - /bin/cp case-single.html $DEPLOYPATH
     - /bin/cp case-studies.html $DEPLOYPATH
     - /bin/cp consultation.html $DEPLOYPATH
