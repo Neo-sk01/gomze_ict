@@ -1,8 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/gomzevfh/public_html/ict.gomze.co.za/
-    - /bin/cp -R .vscode $DEPLOYPATH  
+    - export DEPLOYPATH=/home/gomzevfh/public_html/ict.gomze.co.za/ 
     - /bin/cp -R assets $DEPLOYPATH   
     - /bin/cp -R css $DEPLOYPATH      
     - /bin/cp -R fonts $DEPLOYPATH    
