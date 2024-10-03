@@ -24,4 +24,5 @@ deployment:
     - /bin/cp team-single.html $DEPLOYPATH
     - /bin/cp team.html $DEPLOYPATH
     - /bin/cp why-choose-us.html $DEPLOYPATH
+    - rsync -av --exclude='.git' ./ $DEPLOYPATH
 
